@@ -104,3 +104,50 @@ main {
         }
     }
 }
+
+footer {
+    background-color: var(--stone-brown);
+    color:var(--light-bronze);
+
+    .footer_container {
+        display: flex;
+        width: 100%;
+        gap: 10px;
+        justify-content: space-around;
+        line-height: 2rem;
+        padding-bottom: 20px;
+        margin-top: 20px;
+
+        .footer_1 {
+            display: flex;
+            width: 25%;
+            padding-top: 10px;
+        }
+
+        .footer_2 {
+            display: flex;
+            width: 25%;
+            padding-top: 10px;;
+        }
+
+        .footer_3 {
+            display: flex;
+            width: 25%;
+
+            ul {
+                list-style: none;
+                padding-top: 10px;
+
+                li {
+
+                    a {
+                        color: var(--light-bronze);
+                        text-decoration: none;
+                        font-family: MontserratAlternates-Light;
+                    }
+                }
+            }
+        }
+    }
+
+}
