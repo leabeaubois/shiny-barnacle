@@ -122,4 +122,45 @@ section.roadmap {
   }
 }
 
+section.nousommes{
+  width: 800px;
+  margin: auto;
 
+  p{
+    padding: 2rem 0;
+    &::first-letter{
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 3rem;
+       padding:5px 3px 0 0;
+  margin-right:5px;
+  float : left;
+    }
+  }
+}
+
+p {
+  a{color: var(--stone-brown);
+  text-underline-offset: 3px;
+    text-decoration-color: var(--secondary-color);
+    &:hover{
+      text-decoration: none;
+    }
+  }
+
+}
+
+
+
+section.nosetapes{
+  ul {
+    margin: auto;
+    font-size: 3rem;
+    width: 80vw;
+    font-weight: bold;
+
+    ul {
+      padding: 3rem;
+      font-weight: lighter;
+    }
+  }
+}
