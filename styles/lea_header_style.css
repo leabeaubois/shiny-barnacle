@@ -6,6 +6,8 @@
     --powder-blue: #99BFDCff;
     --light-sea-green: #28B0A6ff;
     --light-bronze: #DD9D7Dff;
+
+    font-size: 14px;
     --primary-color: #ecd0ad; /* bg body */
     --secondary-color: #b47334; /* cards */ 
     --tertiary-color: #2d4b40; 
@@ -17,6 +19,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
 }
 
 
@@ -79,14 +82,44 @@ header {
       display: flex;
       flex-direction: row;
       justify-content: space-around;
-      gap: 1rem;
+      gap: 0.5rem;
+
 
       li {
-        padding: 1rem;
+        padding: 0.5rem  0.8rem ;
         background-color: var(--powder-blue);
         border-radius: 2rem;
-      }
+
+        a{ 
+          color: var(--stone-brown);
+          font-weight: bold;
+          text-decoration: none;
+          display: inline-block;
+        }
+
+      }   
+      li:has(a:hover){
+            background-color: var(--verdigris);
+          }
     }
 
   }
 }
+
+
+
+section.roadmap {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  width: 80vw;
+
+  iframe{
+    border:none;
+    margin: auto;
+    width:100%;
+    height: 50vh;
+  }
+}
+
+
